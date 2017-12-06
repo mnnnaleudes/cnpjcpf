@@ -15,8 +15,17 @@
   ],
   "require": {
     "php" : ">=7.0"
+    "magento/product-community-edition": "2.2.1"
   },
+  "version": "100.2.0-dev",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
   "autoload": {
+    "files": [
+      "registration.php"
+    ],
     "psr-4": {
       "Mnnnaleudes\\Cnpjcpf\\": "src/"
     }
