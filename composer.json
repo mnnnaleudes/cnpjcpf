@@ -1,0 +1,30 @@
+{
+  "name": "mnnnaleudes/cnpjcpf",
+  "type": "library",
+  "description": "API para consulta de Cnpj e Cpf.",
+  "keywords": ["cnpj", "cpf"],
+  "homepage": "https://github.com/mnnnaleudes/cnpjcpf",
+  "license": ["GPL-3.0+","LGPL-3.0+", "MIT"],
+  "authors": [
+    {
+      "name": "Rob Praxedes",
+      "email": "mnnnaleudes@gmail.com",
+      "homepage": "https://github.com/mnnnaleudes/cnpjcpf",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mnnnaleudes\\Cnpjcpf\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.*-dev"
+    }
+  },
+  "minimum-stability": "dev"
+}
